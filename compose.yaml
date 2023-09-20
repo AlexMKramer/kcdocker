@@ -17,7 +17,7 @@ services:
       POSTGRES_DB: koc
 
     ports: 
-      - "5432:5432" 
+      - "54321:54321" 
  
   redis:
     image: redis:7.0.11
